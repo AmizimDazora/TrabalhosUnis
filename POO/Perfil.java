@@ -9,6 +9,8 @@ public class Perfil {
     private String proficao;
     private String hobby;
     private Localisacao local;
+    private String descricao;
+    private String cpf;
 
     public Preferencia getPreferencias() {
         return preferencias;
@@ -56,5 +58,13 @@ public class Perfil {
         return local;
     }public void setLocal(Localisacao local) {
         this.local = local;
+    }public String getDescricao() {
+        return descricao;
+    }public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }public String getCpf() {
+        return cpf;
     }
 }
