@@ -1,3 +1,4 @@
+package Tinder;
 public class Preferencia {
     private String genero;
     private String idade;

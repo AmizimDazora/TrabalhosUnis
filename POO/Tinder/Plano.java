@@ -1,3 +1,4 @@
+package Tinder;
 public class Plano {
     private String premium;
     private String basico;

@@ -1,3 +1,4 @@
+package Tinder;
 public class Localisacao {
     private String pais;
     private String regiao;
