@@ -21,9 +21,9 @@ while ($linha = $resultado->fetch()){
 echo "</pre>";
 
 $data = [
-    "nome" => "cleito",
-    "email" => "cleitolegal23@yahoo.com",
-    "senha" => "1234"
+    "nome" => $nome,
+    "email" => $email,
+    "senha" => $senha
 ];
 $comando = "
     INSERT INTO usuarios (id, nome, email, senha)
