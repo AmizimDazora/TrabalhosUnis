@@ -2,10 +2,7 @@
 if(isset($_POST)){
     print_r($_POST);
 }
-    
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-BR">
