@@ -18,7 +18,7 @@ if(isset($_POST)){
 </head>
 <body>
     <h1>Cadastro de Usuário</h1>
-    <form action="cadastro.php" method="post">
+    <form action="index.php" method="post">
         <label for="nome">Nome</label>
         <input type="text" id="nome" name="nome">
         

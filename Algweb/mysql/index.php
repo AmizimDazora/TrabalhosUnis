@@ -5,14 +5,10 @@
 // localhost:8001
 // como se chama index essa será a pagina padrão.
 
-$dbhost = "localhost";
-$dbname = "banco_aula";
-$username = "root";
-$password = "";
+require("conecta.php");
 
 echo "<h1>Lista de Usuários</h1>";
 echo "<pre>";
-$con = new PDO("mysql:host=$dbhost;dbname=$dbname", $username, $password);
 $consulta = "select * from usuarios";
 $resultado = $con->query($consulta);
 while ($linha = $resultado->fetch()){
