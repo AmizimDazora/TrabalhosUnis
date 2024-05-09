@@ -9,10 +9,7 @@ public class App {
         cc1.agencia = "10101010";
         cc1.numero = "010101010101011";
         cc1.saldo = 20;
-        cc1.taxa = 3.98;
+        cc1.taxa = 0.38;
         cc1.titular = t1;
-
-
-
     }
 }
