@@ -1,6 +1,6 @@
 package Heranca.conta;
 
-public class ContaCorrenteUniversitaria 
+public final class ContaCorrenteUniversitaria 
     extends ContaCorrente
 {
     public ContaCorrenteUniversitaria(){
