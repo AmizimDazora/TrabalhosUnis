@@ -1,4 +1,4 @@
-package conta;
+package Heranca.conta;
 
 public class App {
     public static void main(String[] args) {

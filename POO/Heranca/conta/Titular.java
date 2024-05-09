@@ -1,4 +1,4 @@
-package conta;
+package Heranca.conta;
 
 public class Titular {
     String cpf;
