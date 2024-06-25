@@ -1,8 +1,9 @@
 <?php
 $pinto = 5;
-print $pinto * 2;
+$sex = $pinto * 3;
+print $sex;
 
-if($pinto = 10)
+if($sex == 10)
 {
 print "tapoha";
 } else {
